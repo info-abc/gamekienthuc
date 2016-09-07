@@ -42,14 +42,14 @@ class NewsManager
 				// ->where('status', '!=', SEND)
 				// ->where('status', '!=', BACK)
 				// ->where('status', '!=', NO_APPROVE)
-				->orderBy('highlight', 'desc')
+				// ->orderBy('highlight', 'desc')
 				->orderBy('start_date', 'desc')
 				->orderBy($orderBy[0], $orderBy[1])
 				->paginate(PAGINATE);
 		}
 		if (Admin::isReporter()) {
 			$data = $data->whereIn('status', [SCRATCH_PAPER, BACK])
-				->orderBy('highlight', 'desc')
+				// ->orderBy('highlight', 'desc')
 				->orderBy('start_date', 'desc')
 				->orderBy($orderBy[0], $orderBy[1])
 				->paginate(PAGINATE);

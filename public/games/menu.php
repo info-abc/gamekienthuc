@@ -81,13 +81,11 @@
 	</div>
 
 </div>
-
 <meta name="resource-type" content="Document" /> 
 <meta name="generator" content="game.kienthuc.net.vn" />
 <meta name="copyright" content="game.kienthuc.net.vn" />
 <meta name="google-site-verification" content="4en73oz2Iuz8HZj3lbucI-YJq0s0R4bZDoUyO_tvgbA" />
 <link rel="shortcut icon" href="/images/home.png" />
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
